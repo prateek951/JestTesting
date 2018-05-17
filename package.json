@@ -1,0 +1,26 @@
+{
+  "name": "JestTesting",
+  "version": "1.0.0",
+  "description": "Jest is an alternative to Jasmine for testing react applications and is almost the replica of Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateek951/JestTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateek951/JestTesting/issues"
+  },
+  "homepage": "https://github.com/prateek951/JestTesting#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
