@@ -33,7 +33,24 @@ describe('greet',() => {
         expect(lib.greet('Prateek')).toContain('Prateek');
     })
 
-
-
 });
 
+describe('getCurrencies',() => {
+    it('should return supported currencies',() => {
+            //Too general
+            // expect(lib.getCurrencies).toBeDefined();
+            // expect(lib.getCurrencies).not.toBeNull();
+
+            //Too specific
+            // expect(lib.getCurrencies()[0]).toBe('USD');
+            // expect(lib.getCurrencies.length).toBe(3);
+
+            //Proper way
+            expect(lib.getCurrencies()).toContain('USD');
+            expect(lib.getCurrencies()).toContain('AUD');
+
+            //Ideal way
+            expect(lib.getCurrencies())
+            .toEqual(expect.arrayContaining(['EUR','USD','AUD']));
+        });
+})
