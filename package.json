@@ -4,7 +4,7 @@
   "description": "Jest is an alternative to Jasmine for testing react applications and is almost the replica of Jasmine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
